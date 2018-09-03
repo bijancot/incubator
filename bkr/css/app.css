@@ -113,3 +113,9 @@ div>strong{
     padding-top:6vh;
     padding-bottom: 6vh;
 }
+.grid-x>.large-6>.button{
+    width:90%;
+    padding-left:5%;
+    padding-right:5%;
+    font-weight: bold;
+}
