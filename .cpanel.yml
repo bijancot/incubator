@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/panjibas/incubator
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - / index.html $DEPLOYPATH
+    - /webfonts * $DEPLOYPATH
+    - /js * $DEPLOYPATH
+    - css * #DEPLOYPATH
