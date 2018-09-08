@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/panjibas/incubator
+    - export DEPLOYPATH=/home/panjibas/public_html/incubator
     - / index.html $DEPLOYPATH
     - /webfonts * $DEPLOYPATH
     - /js * $DEPLOYPATH
