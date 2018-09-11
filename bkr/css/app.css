@@ -6,7 +6,7 @@
     height:100vh;
 }
 #first>.head{
-    height:23vh;
+    height:auto;
     background-color: chocolate;
 }
 #first>.head>.subhead{
@@ -37,6 +37,7 @@
 div.sub1{
     height: 100%;
     text-align: left;
+    padding-top:4px;
 }
 div.sub2{
     height: 100%;
@@ -127,4 +128,24 @@ div>strong{
 }
 .size-24{
     font-size: 24px;
+}
+.main-head{
+    padding-top:4vh;
+    padding-bottom:3vh;
+    height: auto;
+}
+.main-head>.top-bar-left>h1{
+    font-weight: bold;
+}
+.top-bar, .top-bar ul{
+    background-color: #ffffff00;
+}
+.menu>li{
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.menu>li>a{
+    color:black;
 }
