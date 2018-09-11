@@ -121,3 +121,10 @@ div>strong{
     padding-left:5%;
     font-weight: bold;
 }
+.step{
+    width:12%;
+    display:inline-block;
+}
+.size-24{
+    font-size: 24px;
+}
