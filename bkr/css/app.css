@@ -10,12 +10,18 @@
     background-color: chocolate;
 }
 #first>.head>.subhead{
-    height:auto;
+    height:7vh;
     background-color: yellow;
 }
 #first>.firstcontent{
     height:77vh;
-    background: green;
+    background-repeat:no-repeat;
+    background-size: cover ;
+    background-position:center;
+    -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+    background-image: url(https://res.cloudinary.com/bijancot/image/upload/q_auto:low/v1538831631/bkr/back.jpg);
 }
 #second{
     height:auto;
@@ -42,7 +48,6 @@ div.sub1{
 div.sub2{
     height: 100%;
     text-align: right;
-    border-left:1px solid red;
 }
 div.sub4{
     text-align:center;
@@ -151,4 +156,8 @@ div>strong{
 #lightSlider>li{
     height:97%;
     background-color: blue;
+}
+
+.firstcontent>.first-wrap{
+    background: rgba(128, 128, 128, 0.4);
 }
