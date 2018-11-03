@@ -1,62 +1,81 @@
 #fifth{
     height:auto;
-    background-color: blue;
+    background-color: #fdc00d;
+    color:#1f1f1f;
 }
 #first{
     height:100vh;
 }
 #first>.head{
     height:auto;
-    background-color: chocolate;
+    background-color:#1f1f1f;
+    color:white;
 }
 #first>.head>.subhead{
-    height:7vh;
-    background-color: yellow;
+    height:auto;
+    background-color: #bdbdc1;
+    color:#1f1f1f;
+    font-weight: bold;
+}
+.subhead>.grid-container>.grid-x>.cell>a{
+    color: #1f1f1f;
+    font-weight: bold;
 }
 #first>.firstcontent{
-    height:77vh;
+    height:80vh;
     background-repeat:no-repeat;
     background-size: cover ;
     background-position:center;
     -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
-    background-image: url(https://res.cloudinary.com/bijancot/image/upload/q_auto:low/v1538831631/bkr/back.jpg);
+    background-image: url(https://res.cloudinary.com/bijancot/image/upload/q_auto:low/v1541174433/bkr/back-low.jpg);
 }
 #second{
+    padding-top:15vh;
+    padding-bottom:15vh;
+    padding-left:20px;
+    padding-right: 20px;
     height:auto;
-    background:violet;
+    background:#fdc00d;
+    color:black;
+    font-weight: bold;
+}
+p.esc{
+    font-size:1em;
 }
 #third{
     height:auto;
-    background:rgb(32,32,32);
+    background-repeat:no-repeat;
+    background-size: cover ;
+    background-position:center;
+    -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+    background-image: url(https://res.cloudinary.com/bijancot/image/upload/q_auto:low/v1541241221/bkr/tool-steel-industrial-security-cut-shoes-513138-pxhere.com.jpg);
     text-align: justify;
 }
 #forth{
     height:auto;
-    background-color: greenyellow;
+    background-color:#1f1f1f;
+    color:white;
 }
 .subhead>.grid-container>.grid-x{
     padding-top:1.5vh;
     padding-bottom: 1.5vh;
 }
 div.sub1{
-    height: 100%;
     text-align: left;
     padding-top:4px;
 }
 div.sub2{
-    height: 100%;
     text-align: right;
 }
 div.sub4{
     text-align:center;
 }
 #second>.grid-x{
-    padding-top:15vh;
-    padding-bottom:15vh;
-    padding-left:20px;
-    padding-right: 20px;
+
     height:auto;
 }
 .grid-x>.card{
@@ -69,17 +88,29 @@ div>strong{
     font-weight: bold;
     color: white;
 }
-#third>.grid-container>.grid-x{
+dd{
+    font-weight: normal;
+}
+#third>.third-wrap>.grid-container>.grid-x{
     padding-top:15vh;
     padding-bottom: 15vh;
 }
-#third>.grid-container>.grid-x>.cell{
+#third>.third-wrap>.grid-container>.grid-x>.cell{
     padding-left: 20px;
     padding-right: 20px;
 
 }
 #third>.grid-container{
     color:white;
+}
+#third>.third-wrap{
+    background-color: #bdbdc1ab;
+    color:black;
+    padding-top:10vh;
+    padding-bottom: 10vh;
+}
+.third-wrap>.grid-container>.grid-x{
+    background-color: rgba(252, 252, 252, 0.589);
 }
 #forth>.grid-container>.grid-x>.cell{
     padding:20px;
@@ -98,7 +129,7 @@ div>strong{
     padding-bottom:3vh;
     
 }
-#spesial>h2{
+#spesial>h3{
     text-align:center;
     font-weight: bold;
 }
@@ -116,10 +147,7 @@ div>strong{
 }
 #fifth>.grid-container>.grid-x{
     padding-top:6vh;
-    padding-bottom: 6vh;
-}
-#fifth>.grid-container>.grid-x>.cell{
-    padding-bottom: 5vh;
+    padding-bottom: 4vh;
 }
 .grid-x>.large-6>.button{
     width:95%;
@@ -135,8 +163,8 @@ div>strong{
     font-size: 24px;
 }
 .main-head{
-    padding-top:4vh;
-    padding-bottom:3vh;
+    padding-top:1vh;
+    padding-bottom:1vh;
     height: auto;
 }
 .main-head>.top-bar-left>h1{
@@ -151,13 +179,32 @@ div>strong{
     font-weight:bold;
 }
 .menu>li>a{
-    color:black;
+    color:white;
 }
-#lightSlider>li{
-    height:97%;
-    background-color: blue;
-}
-
 .firstcontent>.first-wrap{
-    background: rgba(128, 128, 128, 0.4);
+    height: 100%;
+    background: #bdbdc167;
+}
+.memen>h2{
+    font-weight: bold;
+    font-size:24px !important;
+    margin-bottom: 5vh !important;   
+}
+div.memen{
+    text-align:center !important;
+}
+blockquote{
+    color:black;
+    border-left:3px solid black;
+}
+h4{
+    font-weight: bold;
+    color: black;
+}
+h6{
+    font-size: 0.8em;
+    color: black !important;
+}
+h6>a{
+    color: black !important;
 }
